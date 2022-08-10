@@ -2,8 +2,9 @@
 pragma solidity 0.8.4;
 
 import "@openzeppelin/contracts@4.7.2/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts@4.7.2/access/Ownable.sol";
 
-contract SanctionCoin is ERC20 {
+contract SanctionCoin is ERC20, Ownable {
     mapping(address=>bool) private _sanctionedAddresses;
 
     constructor() ERC20("SanctionCoin", "SNC") {
@@ -21,11 +22,11 @@ contract SanctionCoin is ERC20 {
         super._beforeTokenTransfer(from, to, amount);
     }
 
-    function lockAddress(address account) public returns(bool success) {
+    function lockAddress(address account) public onlyOwner returns(bool success) {
         _sanctionedAddresses[account] = true;
         return true;
     }
-    function unlockAddress(address account) public returns(bool success) {
+    function unlockAddress(address account) public onlyOwner returns(bool success) {
         _sanctionedAddresses[account] = false;
         return true;
     }
