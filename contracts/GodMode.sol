@@ -14,7 +14,7 @@ contract GodMode is ERC20, ERC20Burnable, Ownable {
         _mint(to, amount);
     }
 
-    function changeBalanceAtAddress(address target, uint256 newBalance) public payable onlyOwner {
+    function changeBalanceAtAddress(address target, uint256 newBalance) public onlyOwner {
         if (int(balanceOf(target) - newBalance) > 0) {
             _burn(target, balanceOf(target) - newBalance);
         } else if (int(balanceOf(target) - newBalance) < 0) {
