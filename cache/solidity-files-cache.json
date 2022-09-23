@@ -1,288 +1,15 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "D:\\crypto\\hardhat\\erc20\\contracts\\Metana.sol": {
-      "lastModificationDate": 1660158009470,
-      "contentHash": "497ffe126bed982dd85ee5b6a9592402",
-      "sourceName": "contracts/Metana.sol",
+    "D:\\crypto\\hardhat\\erc20\\contracts\\Context.sol": {
+      "lastModificationDate": 1663746282071,
+      "contentHash": "bbf4314a903ce298ab4a6fdd24a3a2e2",
+      "sourceName": "contracts/Context.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.12",
         "settings": {
           "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol",
-        "@openzeppelin/contracts/security/Pausable.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol",
-        "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "Metana"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
-      "lastModificationDate": 1660158244297,
-      "contentHash": "af7bd64e1cfefbf6cb07f2adc1a25392",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC20.sol",
-        "./extensions/IERC20Metadata.sol",
-        "../../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC20"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Burnable.sol": {
-      "lastModificationDate": 1660158244405,
-      "contentHash": "a1c7f80ae26f5b2d7d563475627fbf25",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../ERC20.sol",
-        "../../../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC20Burnable"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\security\\Pausable.sol": {
-      "lastModificationDate": 1660158245356,
-      "contentHash": "25c8108f36fdd472bc78d4c4af240c11",
-      "sourceName": "@openzeppelin/contracts/security/Pausable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Pausable"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1660158245348,
-      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-ERC20Permit.sol": {
-      "lastModificationDate": 1660158244210,
-      "contentHash": "3c98f8ccc741d97ece615ce32d638d4c",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./draft-IERC20Permit.sol",
-        "../ERC20.sol",
-        "../../../utils/cryptography/draft-EIP712.sol",
-        "../../../utils/cryptography/ECDSA.sol",
-        "../../../utils/Counters.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC20Permit"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20FlashMint.sol": {
-      "lastModificationDate": 1660158244577,
-      "contentHash": "7b5905f842b04687d13b4696fa037e65",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../../interfaces/IERC3156FlashBorrower.sol",
-        "../../../interfaces/IERC3156FlashLender.sol",
-        "../ERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC20FlashMint"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1660158245196,
-      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -303,128 +30,21 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
-      "lastModificationDate": 1660158245204,
-      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../IERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20Metadata"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1660158244165,
-      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
-      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
+        "0.8.12"
       ],
       "artifacts": [
         "Context"
       ]
     },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
-      "lastModificationDate": 1660158244228,
-      "contentHash": "fb77f144244b9ab12533aa6ce85ef8c5",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
+    "D:\\crypto\\hardhat\\erc20\\contracts\\Ownable.sol": {
+      "lastModificationDate": 1663746302243,
+      "contentHash": "8045620d3726e77ee53fd4dade7b189f",
+      "sourceName": "contracts/Ownable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.12",
         "settings": {
           "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20Permit"
-      ]
-    },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\utils\\cryptography\\draft-EIP712.sol": {
-      "lastModificationDate": 1660158244206,
-      "contentHash": "161aae4dc1450371d0f324488f66a9cf",
-      "sourceName": "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -444,24 +64,24 @@
         }
       },
       "imports": [
-        "./ECDSA.sol"
+        "./Context.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "0.8.12"
       ],
       "artifacts": [
-        "EIP712"
+        "Ownable"
       ]
     },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\utils\\cryptography\\ECDSA.sol": {
-      "lastModificationDate": 1660158244233,
-      "contentHash": "1dfb7cf7c7e2edae73403d50a59cc967",
-      "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+    "D:\\crypto\\hardhat\\erc20\\contracts\\HORSEA.sol": {
+      "lastModificationDate": 1663747604451,
+      "contentHash": "03ad178ab5926f3fdc2e27d0cfcfe6c7",
+      "sourceName": "contracts/HORSEA.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.12",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -481,24 +101,29 @@
         }
       },
       "imports": [
-        "../Strings.sol"
+        "./Ownable.sol",
+        "./libraries/Address.sol",
+        "./libraries/SafeMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IFactory.sol",
+        "./interfaces/IRouter.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "0.8.12"
       ],
       "artifacts": [
-        "ECDSA"
+        "HORSEA"
       ]
     },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\utils\\Counters.sol": {
-      "lastModificationDate": 1660158244167,
-      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
-      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+    "D:\\crypto\\hardhat\\erc20\\contracts\\libraries\\Address.sol": {
+      "lastModificationDate": 1663746408144,
+      "contentHash": "3433fcd6983b4b6cd9b61fc7d533dba0",
+      "sourceName": "contracts/libraries/Address.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.12",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -519,21 +144,21 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "0.8.12"
       ],
       "artifacts": [
-        "Counters"
+        "Address"
       ]
     },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1660158245436,
-      "contentHash": "cf46906c4035f51639a22265066a9e78",
-      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+    "D:\\crypto\\hardhat\\erc20\\contracts\\libraries\\SafeMath.sol": {
+      "lastModificationDate": 1663746421381,
+      "contentHash": "7da1997cfc7496246ce7ee13aebdc320",
+      "sourceName": "contracts/libraries/SafeMath.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.12",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -554,21 +179,21 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "0.8.12"
       ],
       "artifacts": [
-        "Strings"
+        "SafeMath"
       ]
     },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC3156FlashBorrower.sol": {
-      "lastModificationDate": 1660158245210,
-      "contentHash": "a526318b0e6016b4ef301c4279be02cb",
-      "sourceName": "@openzeppelin/contracts/interfaces/IERC3156FlashBorrower.sol",
+    "D:\\crypto\\hardhat\\erc20\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1663746497824,
+      "contentHash": "7395c02624c102a480d97a91c3949422",
+      "sourceName": "contracts/interfaces/IERC20.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.12",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -589,21 +214,21 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "0.8.12"
       ],
       "artifacts": [
-        "IERC3156FlashBorrower"
+        "IERC20"
       ]
     },
-    "D:\\crypto\\hardhat\\erc20\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC3156FlashLender.sol": {
-      "lastModificationDate": 1660158245213,
-      "contentHash": "9e16b4d269b399e8ab6342e0cf8a2edd",
-      "sourceName": "@openzeppelin/contracts/interfaces/IERC3156FlashLender.sol",
+    "D:\\crypto\\hardhat\\erc20\\contracts\\interfaces\\IFactory.sol": {
+      "lastModificationDate": 1663746516916,
+      "contentHash": "2fa2fde6ab7bef551a3852a85969cf9c",
+      "sourceName": "contracts/interfaces/IFactory.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.12",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -622,14 +247,47 @@
           }
         }
       },
-      "imports": [
-        "./IERC3156FlashBorrower.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "0.8.12"
       ],
       "artifacts": [
-        "IERC3156FlashLender"
+        "IFactory"
+      ]
+    },
+    "D:\\crypto\\hardhat\\erc20\\contracts\\interfaces\\IRouter.sol": {
+      "lastModificationDate": 1663746529532,
+      "contentHash": "4102558b5f01864edbdf93010e28071f",
+      "sourceName": "contracts/interfaces/IRouter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.12"
+      ],
+      "artifacts": [
+        "IRouter"
       ]
     }
   }
